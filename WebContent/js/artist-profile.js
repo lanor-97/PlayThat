@@ -5,8 +5,8 @@ $(document).ready(function()  {
 	rand = parseInt(rand);	
 	
 	var api_query = $("#name2").text() + " live";
-	var api_engine_id = "007800387884010163298:yjfp343aqwe";
-	var api_key = "AIzaSyDsBglMUaAojYOoFSg9L4Km26Frx-PSlgg";
+	var api_engine_id = ";
+	var api_key = "";
 	var api_url = "https://www.googleapis.com/customsearch/v1?key=";
 	api_url += api_key;
 	api_url += "&cx=" + api_engine_id;
