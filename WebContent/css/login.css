@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #17a2b8;
+  height: 100vh;
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 200px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+#register .container #login-row #login-column #login-box {
+  margin-top: 200px;
+  max-width: 600px;
+  height: 560px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+
+#register-artist .container #login-row #login-column #login-box {
+  margin-top: 200px;
+  max-width: 600px;
+  height: 480px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+
+.body-login {
+	padding-top:10rem;
+	padding-bottom:calc(10rem - 72px);
+	background:-webkit-gradient(linear,left top,left bottom,from(rgba(92,77,66,.8)),to(rgba(92,77,66,.8))),url(../images/background.jpg);
+	background:linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%),url(../images/background.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-size:cover
+}
